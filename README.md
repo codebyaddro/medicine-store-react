@@ -1,16 +1,39 @@
-# React + Vite
+🏥 Medicine Store UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Medicine Store UI built with React.
+⚠️ This project is frontend-only (UI project) — no backend or database integration.
 
-Currently, two official plugins are available:
+The design inspiration was collected from the Figma Community and implemented using modern frontend tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack :
 
-## React Compiler
+⚛️ React JS
+🎨 Tailwind CSS
+🔀 React Router DOM
+🎬 GSAP (Animations)
+🎯 Lucide React (Icons)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features :
 
-## Expanding the ESLint configuration
+🏪 Clean Medicine Store UI Layout
+📄 Multi-page routing (React Router DOM)
+🎬 Smooth animations with GSAP
+📱 Fully responsive design
+🎨 Modern UI inspired from Figma Community
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Design Credit
+UI Design collected from Figma Community and converted into a fully functional React interface.
+
+🔗 Live Demo
+👉 Live Link: [Add Your Live Link Here]
+
+<details>
+  <summary>Click to expand</summary>
+
+  This content will be hidden by default.
+  You can put text, lists, code blocks, anything here.
+  ```
+  npm rub dev
+  ```
+
+</details>
