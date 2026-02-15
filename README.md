@@ -24,7 +24,5 @@ UI Design collected from Figma Community and converted into a fully functional R
 
 <details>
   <summary>🔗 Live Link</summary>
-  ```bash
-  https://medicine-store-react-cba.vercel.app
-  ```
+  👉 [Visit Website](https://medicine-store-react-cba.vercel.app)
 </details>
