@@ -22,9 +22,18 @@ The design inspiration was collected from the Figma Community and implemented us
 3. Design Credit
 UI Design collected from Figma Community and converted into a fully functional React interface.
 
-<details>
+<details class="dropdown">
   <summary>🔗 Live Link</summary>
-  ```
-  https://medicine-store-react-cba.vercel.app
-  ```
+  <div class="code-container">
+    <code id="liveLink">https://medicine-store-react-cba.vercel.app</code>
+    <button onclick="copyLink()">📋</button>
+  </div>
 </details>
+
+<script>
+function copyLink() {
+  const text = document.getElementById("liveLink").innerText;
+  navigator.clipboard.writeText(text);
+  alert("Copied!");
+}
+</script>
