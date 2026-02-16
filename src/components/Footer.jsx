@@ -2,10 +2,14 @@ import { Facebook, Instagram, Mail, MapPinned, Phone, Twitter, Youtube } from 'l
 import React from 'react'
 import { Link } from 'react-router-dom'
 import navlogo from '@/assets/navlogo.png'
+import footerImg1 from '@/assets/footer-img1.png'
+import footerImg2 from '@/assets/footer-img2.png'
 
 const Footer = () => {
     return (
-        <footer className='bg-[#E8E6DE] w-full px-5 py-10'>
+        <footer className='bg-[#E8E6DE] w-full px-5 py-10 relative'>
+            <img className='absolute left-2 bottom-2 h-28' src={footerImg1} alt="Footer image" />
+            <img className='absolute right-5 top-5' src={footerImg2} alt="Footer image" />
             <div className='max-w-7xl mx-auto'>
                 
                 {/* Main Section */}
@@ -98,7 +102,7 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Section */}
-                <div className='text-center border-t border-[#E2DFCF] mt-12 pt-6'>
+                <div className='text-center border-t border-[#E2DFCF] mt-12 pt-5'>
                     <p className='text-[#503217] font-semibold text-sm'>
                         &copy; {new Date().getFullYear()}{" "}
                         <Link 

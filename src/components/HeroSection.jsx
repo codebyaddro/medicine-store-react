@@ -14,7 +14,7 @@ const HeroSection = () => {
                 alt=""
             />
 
-            <div className='max-w-7xl mx-auto px-4 pt-32 pb-16 flex flex-col-reverse lg:flex-row items-center gap-12'>
+            <div className='max-w-7xl mx-auto px-4 py-16 flex flex-col-reverse lg:flex-row items-center gap-12'>
                 
                 {/* Text Content */}
                 <div className='text-center lg:text-left max-w-xl'>
